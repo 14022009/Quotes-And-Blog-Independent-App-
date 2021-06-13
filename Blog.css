@@ -1,0 +1,58 @@
+.bg_div {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+#img_holder_p {
+    width: 6%;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 64px;
+    margin-top: 25px;
+    margin-left: 22px;
+}
+
+#blog_write_inp {
+    width: 42%;
+    margin-left: 8%;
+    height: 280px;
+    border: 0px;
+    background-color: #efefef;
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 26px;
+    display: block;
+}
+
+.sub_blog {
+    margin-top: 1%;
+    margin-left: 8%;
+    width: 42%;
+    height: 40px;
+    color: white;
+    background-color: #0066b4;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.b_d {
+    width: 41%;
+    height: 320px;
+    background-color: #777777;
+    position: absolute;
+    top: 285px;
+    left: 733px;
+    overflow: auto;
+    padding: 5px;
+}
+
+.eas {
+    color: black;
+    font-size: xxx-large;
+    position: relative;
+    top: 0px;
+    left: 900px;
+}

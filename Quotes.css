@@ -1,0 +1,68 @@
+/* Quotes < */
+body {
+    font-family: Oxanium;
+    background-color: rgb(25, 43, 97);
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.mq_div_q_1 {
+    width: 40%;
+    text-align: center;
+    margin: 10px;
+}
+
+.h_d {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#h_d_h1 {
+    font-size: 200%;
+}
+
+#h_d_h2 {
+    font-size: 150%;
+}
+
+.sas {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sas:hover {
+    color: blanchedalmond;
+}
+
+@media screen and (max-width: 420px) {
+    .sas {
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .sas {
+        text-align: justify;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .sas {
+        text-align: justify;
+        font-size: 30px;
+    }
+}
+
+.has {
+    color: white;
+    font-size: xxx-large;
+    margin-left: 80%;
+}
+
+img {
+    width: 100%;
+}
+
+/* > Quotes */

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Device < -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!-- > Device -->
+    <!-- Fonts < -->
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700" rel="stylesheet">
+    <!-- > Fonts -->
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <!-- /Firebase -->
+    <!-- Bootsrap links < -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- > Bootsrap links -->
+    <!-- css js < -->
+    <link rel="stylesheet" href="Blog.css">
+    <!-- > css js -->
+</head>
+
+<body style="background-color: rgb(255, 255, 255); color: white; font-family: Oxanium;">
+    <img src="Blog_head_img.png">
+    <div class="bg_div">
+
+        <div id="img_holder_p" style="display: inline-block;"></div>
+        <h1 id="name_holder_p" style="color: black;display: inline-block;"></h1>
+        <span class="glyphicon glyphicon-home eas" role="button" onclick="home_blog()"></span>
+        <div>
+            <textarea id="blog_write_inp" placeholder="Write Your Blog Here" type="text"></textarea>
+            <div class="b_d">
+                <h3>Blog title and writer name will apper here</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt neque sed ligula
+                    sollicitudin, iaculis placerat risus cursus. Aenean varius lectus nulla, non ornare nisi ullamcorper
+                    non. Mauris suscipit maximus urna, quis dictum diam egestas vel. Ut sed mollis nulla. Fusce eu leo
+                    sed tellus ullamcorper bibendum vel vitae tellus. In bibendum faucibus est, quis molestie libero
+                    facilisis a. Aliquam vestibulum magna tellus, eget accumsan elit dictum quis. Suspendisse a lacinia
+                    enim, et feugiat diam. Aenean pulvinar imperdiet faucibus. Sed et lectus euismod, gravida mi eget,
+                    pharetra metus. Donec et mauris urna. Aenean vel venenatis velit. Cras euismod est non nunc placerat
+                    malesuada. Praesent rutrum in mauris sed vestibulum.</p>
+                <h3>Blog title and writer name will apper here</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt neque sed ligula
+                    sollicitudin, iaculis placerat risus cursus. Aenean varius lectus nulla, non ornare nisi ullamcorper
+                    non. Mauris suscipit maximus urna, quis dictum diam egestas vel. Ut sed mollis nulla. Fusce eu leo
+                    sed tellus ullamcorper bibendum vel vitae tellus. In bibendum faucibus est, quis molestie libero
+                    facilisis a. Aliquam vestibulum magna tellus, eget accumsan elit dictum quis. Suspendisse a lacinia
+                    enim, et feugiat diam. Aenean pulvinar imperdiet faucibus. Sed et lectus euismod, gravida mi eget,
+                    pharetra metus. Donec et mauris urna. Aenean vel venenatis velit. Cras euismod est non nunc placerat
+                    malesuada. Praesent rutrum in mauris sed vestibulum.</p>
+            </div>
+            <button class="sub_blog" onclick="submit_blog()">Submit Your Blog</button>
+        </div>
+    </div>
+    <script src="Blog.js"></script>
+</body>
+
+</html>
